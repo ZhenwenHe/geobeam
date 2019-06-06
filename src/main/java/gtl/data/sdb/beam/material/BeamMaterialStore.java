@@ -58,10 +58,10 @@ public class BeamMaterialStore implements MaterialStore {
 
     }
 
-    @Override
+    /*@Override
     public ServiceInfo getInfo() {
         return null;
-    }
+    }*/
 
     @Override
     public String getName() {
@@ -73,10 +73,10 @@ public class BeamMaterialStore implements MaterialStore {
 
     }
 
-    @Override
+    /*@Override
     public void updateSchema(String s, DataSchema dataSchema) throws IOException {
 
-    }
+    }*/
 
     @Override
     public void removeSchema(String s) throws IOException {

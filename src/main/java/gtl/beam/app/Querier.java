@@ -22,7 +22,7 @@ import java.io.IOException;
  * mvn package exec:java -Dexec.mainClass=gtl.beam.app.Querier
  * -Dexec.args="
  * --inputFile=/home/vincent/gtl/data/dat/counties/county_small.tsv
- * --outputFile=/home/vincent/gtl/data/dat/temp/county_small.analyzer
+ * --outputFile=/home/vincent/gtl/data/dat/temp/county_small.querier
  * --minX=-130.0
  * --minY=-100.0
  * --minZ=0.0

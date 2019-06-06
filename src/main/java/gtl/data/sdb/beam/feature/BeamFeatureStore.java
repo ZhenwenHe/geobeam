@@ -199,10 +199,10 @@ public class BeamFeatureStore implements FeatureStore {
         this.propertySet=propertySet;
     }
 
-    @Override
+   /* @Override
     public ServiceInfo getInfo() {
         return null;
-    }
+    }*/
 
     @Override
     public String getName() {
@@ -214,10 +214,10 @@ public class BeamFeatureStore implements FeatureStore {
         createFeatureSet(featureType);
     }
 
-    @Override
+    /*@Override
     public void updateSchema(String s, FeatureType featureType) throws IOException {
 
-    }
+    }*/
 
     @Override
     public void removeSchema(String s) throws IOException {

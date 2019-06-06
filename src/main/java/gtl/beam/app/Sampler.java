@@ -24,7 +24,7 @@ public class Sampler {
             String[] defaultArgs = new String[4];
             defaultArgs[0]="--inputFile="+ Config.getDataDirectory()+ File.separator+"counties"+File.separator+"county_small.tsv";
             defaultArgs[1]="--outputFile="+Config.getTemporaryDirectory()+File.separator+"county_small.sampler";
-            defaultArgs[2]="--smapleNumber=5";
+            defaultArgs[2]="--sampleNumber=5";
             defaultArgs[3]="--runner=DirectRunner";
             args=defaultArgs;
         }
@@ -62,12 +62,11 @@ public class Sampler {
         String getOutputFile();
         void setOutputFile(String value);
 
-        @Description("smaple number")
+        @Description("sample number")
         @Default.Long(5)
         @Validation.Required
         Long getSampleNumber();
         void setSampleNumber(Long value);
     }
-
 
 }
