@@ -512,5 +512,12 @@
     </dependency>
 
 
+    <!-- https://mvnrepository.com/artifact/org.apache.apex/apex-common -->
+    <dependency>
+      <groupId>org.apache.apex</groupId>
+      <artifactId>apex-common</artifactId>
+      <version>3.7.0</version>
+    </dependency>
+
   </dependencies>
 </project>
