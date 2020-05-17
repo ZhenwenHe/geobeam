@@ -32,7 +32,7 @@ public class StorableCoderTest {
                 .setCoordinateReferenceSystem(null)
                 .add("geom", Polygon.class);
         for(int i=1;i<columns.length;++i)
-            ftb.add(new Integer(i).toString(), Variant.STRING);
+            ftb.add(String.valueOf(i), Variant.STRING);
         final FeatureType ft = ftb.build();
 
         final WKTReader wktReader = WKTReader.create();

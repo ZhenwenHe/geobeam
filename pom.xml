@@ -2,6 +2,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>analysis</artifactId>
+        <groupId>cn.edu.cug.cs.gtl</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>cn.edu.cug.cs.gtl</groupId>
@@ -11,23 +16,14 @@
     <packaging>jar</packaging>
 
     <properties>
-        <junit.version>4.12</junit.version>
-        <beam.version>2.16.0</beam.version>
+
         <bigquery.version>v2-rev20181104-1.27.0</bigquery.version>
         <google-clients.version>1.27.0</google-clients.version>
         <hamcrest.version>2.1</hamcrest.version>
         <jackson.version>2.9.10</jackson.version>
         <joda.version>2.10.3</joda.version>
-        <maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
-        <maven-exec-plugin.version>1.6.0</maven-exec-plugin.version>
-        <maven-jar-plugin.version>3.0.2</maven-jar-plugin.version>
-        <maven-shade-plugin.version>3.1.0</maven-shade-plugin.version>
         <mockito.version>3.0.0</mockito.version>
         <pubsub.version>v1-rev20181105-1.27.0</pubsub.version>
-        <slf4j.version>1.7.25</slf4j.version>
-        <spark.version>2.4.4</spark.version>
-        <hadoop.version>2.7.3</hadoop.version>
-        <maven-surefire-plugin.version>2.21.0</maven-surefire-plugin.version>
         <nemo.version>0.1</nemo.version>
         <flink.artifact.name>beam-runners-flink-1.8</flink.artifact.name>
     </properties>
